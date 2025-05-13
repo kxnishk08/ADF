@@ -1,0 +1,16 @@
+{
+	"name": "SalesOrderHeaderTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AdvWorksDb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "SalesOrderHeader"
+		}
+	}
+}
